@@ -1,0 +1,29 @@
+*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	main{
+		display: grid;
+		margin: 20px auto;
+		padding: 10px;
+		border: 1px solid black;
+		width: 90%;
+		grid-template-rows: 100px 400px 100px;
+		grid-template-columns: 1fr 400px;
+		grid-gap: 20px;
+	}
+	#head{
+		background-color: red;
+		grid-column: 1/-1;
+	}
+	#left{
+		background-color: pink;
+	}
+	#right{
+		background-color: magenta;
+	}
+	#foot{
+		background-color: purple;
+		grid-column: 1/-1;
+	}

@@ -1,0 +1,41 @@
+*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		font-weight: bold;
+		text-align: center;
+	}
+	main{
+		display: grid;
+		margin: 20px auto;
+		padding: 10px;
+		width: 98%;
+		grid-template-rows: 80px 300px 65px 80px;
+		grid-template-columns: 350px 1fr;
+		grid-gap: 10px;
+		color: white;
+	}
+	#header{
+		background-color: blue;
+		grid-column: 1/-1;
+		padding: 14px;
+	}
+	#sidebar{
+		background-color: green;
+		grid-row: 2/4;
+		padding: 14px;
+	}
+	#main_cont{
+		background-color: orange;
+		padding: 14px;
+	}
+	#extra_cont{
+		background-color: grey;
+		padding: 14px;
+	}
+	#footer{
+		background-color: orange;
+		grid-column: 1/-1;
+		padding: 14px;
+	}
