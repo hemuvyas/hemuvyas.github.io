@@ -1,0 +1,102 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+header{
+	background-color: #e5ebe1;
+	height: 53px;
+	overflow: hidden;
+}
+.links{
+	float: right;
+	position: relative;
+	top: 5px;
+	right: 40px;
+	font-family: verdana;
+}
+.links a{
+  	display: inline-block;
+  	color: blue;
+  	text-align: center;
+  	padding: 10px 12px;
+  	text-decoration: none;
+  	height: 40px;
+}
+.links a:hover{
+	background-color: black;
+  	color: white;
+}
+.banner{
+	height: 200px;
+	background-color: #06a3cc;
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	padding: 35px;
+}
+.mid{
+	display: flex;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.side-left{
+	width: 400px;
+	height: 500px;
+	margin-left: 150px;
+	background-color: #ffe469;
+}
+.side-right{
+	height: 500px;
+	margin-left: 15px;
+	flex: 1;
+	margin-right: 150px;
+}
+#int_side{
+	height: 350px;
+	width: 65%;
+	position: relative;
+	top: 45px;
+	right: 50px;
+	background-color: #d39ed6;
+}
+.inp-frm{
+	height: 300px;
+	background-color: #ed8719;
+}
+.frm_cvr{
+	width: 450px;
+	height: 250px;
+	padding: 20px;
+}
+.frm_cvr input, select{
+	width:350px;
+	height: 35px;
+	margin-top: 14px;
+	background-color: #f8a549; 
+	padding: 10px;
+	border: none;
+}
+.extra{
+	height: 190px;
+	margin-top: 10px;
+	background-color: #8ae33b
+}
+footer{
+	background-color: #007694;
+}
+.links2{
+	text-align: center;
+	margin-top: 20px; 
+	padding: 10px;
+}
+.links2 a{
+	display: inline-block;
+	padding: 10px 12px;
+  	text-decoration: none;
+  	height: 40px;
+  	color: white;
+  	font-family: verdana;
+  	border-right: 2px solid white;
+}
