@@ -1,0 +1,17 @@
+$(document).ready(function(){
+	$(".head").click(function(){
+		$(".head").css("background-color","red");
+	});
+	$(".side-bar").click(function(){
+		$(".side-bar").text("Leftbar")
+	});
+	$(".extra").click(function(){
+		$(".main-cont").fadeOut();
+	});
+	$(".foot").click(function(){
+		$("#pop").css("display","block");
+	});
+	$(".close").click(function(){
+		$("#pop").css("display","none");
+	});
+});

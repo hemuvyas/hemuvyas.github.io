@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.top{
+	border: 1px solid #c3c3c3;
+	text-align: center;
+	width: 100%;
+}
+.bottom{
+	border: 1px solid #c3c3c3;
+	text-align: center;
+	width: 100%;
+	padding: 50px;
+	background-color: #dfedff;
+	display: none;
+}
+.txt{
+	margin: 0 auto;
+}
+.btn{
+	width: 100%;
+	padding: 5px;
+	background-color: #e5eecc;
+}
